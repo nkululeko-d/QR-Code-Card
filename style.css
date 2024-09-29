@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+  font-family: Outfit, Poppins, sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+}
+
+#qr-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  max-width: 300px;
+  padding: 1em;
+  border-radius: 5%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 10%;
+}
+
+#qr-img{
+  border-radius: 5%;
+}
+
+h2{
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+p{
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+}
